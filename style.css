@@ -12,3 +12,79 @@ body {
     height: 1000px;
     border-radius: 15px;
 }
+
+.hero-image {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.hero-image > img {
+    border-radius: 100%;
+    margin-top: 20px;
+    width: 25%;
+}
+
+.hero-image > h1 {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    margin: 20px 0px 10px;
+}
+
+.hero-image > p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: slategray;
+}
+
+.content-container {
+    background-color: rgb(50, 133, 206);
+    width: 100%;
+    height: 160px;
+}
+.content {
+    width: 70%;
+    color: whitesmoke;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.4);
+    padding: 28px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.content-container > p {
+    width: 70%;
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.content-container > p > a {
+    color: whitesmoke;
+}
+
+.content-container:nth-child(3) {
+    background-color: #0091ff;
+    height: 250px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul > li {
+    padding: 5px 0;
+    color: whitesmoke;
+}
+
+ul > li::before {
+    content: '➡️';
+    padding-right: 3px;
+}
+
+.bullets {
+    margin-left: 60px;
+}
